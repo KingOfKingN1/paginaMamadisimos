@@ -1,0 +1,88 @@
+
+/*main style*/
+html,
+body {
+    font-family: 'Monserrat', sans-serif;
+}
+
+/* Bootstrap Classes */
+
+.display-1 {
+    font-size: 9rem;
+}
+
+.fst-italic {
+    font-family: 'Yesteryear', cursive;
+}
+
+.btn-primary,
+.bg-primary {
+    background-color: rgb(100, 15, 179)!important;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: black;
+}
+
+.bg-secondary {
+    background-color: #f2f2f2!important;
+}
+
+/* Utility Classes */
+
+.p-6 {
+    padding: 80px;
+}
+
+.pt-6 {
+    padding-top: 80px;
+}
+
+.py-6 {
+    padding: 80px;
+}
+
+
+.showcase{
+    background:url('/imagenes/showcase.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.l-spacing {
+    letter-spacing: 5px;
+}
+
+/* Mobil */
+@media (max-width: 768px) {
+    .display-1{
+        font-size: 5rem;
+    }
+
+    .w-75,
+    .w-50,
+    iframe{
+        width: 100%!important;
+    }
+
+    .pt-6 {
+        padding-top: 40px;
+    }
+
+    .p-6 {
+        padding-top: 40px;
+    }
+
+    .showcase {
+        height: 100%!important;
+        padding-bottom: 80px!important;
+    }
+
+    .about {
+        text-align: center;
+    }
+
+
+}
